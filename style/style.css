@@ -102,6 +102,10 @@ p {
     position: absolute;
     left: 0;
     bottom: -5px;
+
+
+
+   
 }
 
 /* Main */
@@ -117,7 +121,7 @@ p {
 }
 
 .main__block {
-    max-width: 600px;
+    padding-right: 200px;
 }
 
 .main__text__title {
@@ -187,7 +191,7 @@ p {
     grid-template-columns: auto auto;
     grid-gap: 0;
     margin-bottom: 240px;
-    
+
 }
 
 .img_block1 {
@@ -196,7 +200,7 @@ p {
 }
 
 .img_block2 {
-    padding: 12px 12px 12px 12px ;
+    padding: 12px 12px 12px 12px;
     border-radius: 20px;
 }
 
