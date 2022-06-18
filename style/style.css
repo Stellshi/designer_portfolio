@@ -147,7 +147,7 @@ p {
     font-size: 18px;
     font-weight: 600;
 
-    display: inline-block;
+
 
 
 }
@@ -220,18 +220,78 @@ p {
 }
 
 .map_blocks_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 240px;
+}
+
+.map_block1 {
+    padding: .2rem;
+}
+
+
+.grid-1-col-auto {
+
+    justify-self: auto;
+}
+
+.sub__text {
+
+    text-align: center;
+    color: var(--color2);
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 46px;
+}
+
+.btn__center {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 120px;
+}
+
+/* footer ПОДВАЛ====
+ */
+
+.footer {
+    border-top: 2px solid var(--color2);
+    padding-top: 50px;
+}
+
+.item__footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.copyright {
+
+    color: var(--color2);
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.span {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.footer__icon {
     display: flex;
     justify-content: space-between;
 }
 
-.map_block1 {
-    width: 33.3333%;
+.icon {
+
+    margin-right: 40px;
 }
 
-.map_block2 {
-    width: 33.3333%;
-}
-
-.map_block3 {
-    width: 33.3333%;
+.icon:last-child {
+    margin-right: 0px;
 }
